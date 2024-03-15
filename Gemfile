@@ -15,6 +15,7 @@ gem "redis", ">= 4.0.1"
 gem "dotenv"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
+gem "awesome_print"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
