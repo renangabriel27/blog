@@ -16,6 +16,7 @@ gem "dotenv"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 gem "awesome_print"
+gem "simple_form"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
